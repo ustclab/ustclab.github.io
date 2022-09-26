@@ -1,0 +1,40 @@
+#publication-main-container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-top: gray solid 1px;
+    padding-top: 5px;
+}
+
+#publication-main-right {
+    width: 700px;
+}
+
+.publication-nav-category {
+    height: 35px;
+    line-height: 35px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.publication-nav-category:hover {
+    cursor: pointer;
+}
+
+.publication-nav-year {
+    width: 60px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.publication-nav-year:hover {
+    cursor: pointer;
+}
+
+.publication-item {
+    font-size: 14px;
+    margin: 10px 0;
+}

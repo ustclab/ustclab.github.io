@@ -1,0 +1,98 @@
+/* 顶部容器 */
+#top-container {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 1000px;
+    background-image: url("../imgs/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 750px 200px;
+    background-position: right;
+}
+
+
+
+
+#lab {
+    line-height: 200px;
+    font-size: 24px;
+    color: white;
+}
+
+
+/* 主体容器 */
+#index-main-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+
+/* 顶部导航栏 */
+#top-nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 导航栏链接 */
+.top-nav-link:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.top-nav-line {
+    color: #acaaaa;
+}
+
+/* 主体容器 */
+#index-main-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* 主体左边 */
+#index-main-left {
+    width: 700px;
+}
+
+/* 右边新闻框 */
+#index-main-right {
+    width: 250px;
+}
+
+#index-ain-right > .center {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 20PX;
+}
+
+.index-main-right-new {
+    margin-bottom: 20px;
+}
+
+.new-date {
+    font-size: 16px;
+}
+
+.new-title {
+    font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20a9f8;
+    color: white;
+    font-size: 12px;
+}
